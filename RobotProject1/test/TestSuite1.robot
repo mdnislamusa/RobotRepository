@@ -23,16 +23,16 @@ MyThirdTest
     Log   I am in third test case
     
 
-# FirstSeleniumTest
-   # # Create Webdriver    chrome    executable path="C:\Users\Nur Islam\Downloads\chromedriver_win32\chromedriver.exe"
-    # Open Browser    https://www.google.com    chrome
-    # Set Browser Implicit Wait    5
-    # Input Text    name=q    Automation Step by Step   
-    # Press Keys    name=q    ENTER
-    # #Click Button    name=btnK        
-    # Sleep    2    
-    # Close Browser
-    # Log    Test Completed    
+FirstSeleniumTest
+   # Create Webdriver    chrome    executable path="C:\Users\Nur Islam\Downloads\chromedriver_win32\chromedriver.exe"
+    Open Browser    https://www.google.com    chrome
+    Set Browser Implicit Wait    5
+    Input Text    name=q    Automation Step by Step   
+    Press Keys    name=q    ENTER
+    #Click Button    name=btnK        
+    Sleep    2    
+    Close Browser
+    Log    Test Completed    
     
 # SampleLoginTest
     # [Documentation]    This is a sample login test
