@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20200424 14:16:18.436" generator="Robot 3.1.2 (Python 2.7.18 on win32)">
+<suite source="C:\eclipse-workspace\RobotProject1\test\testsuite1.robot" id="s1" name="Testsuite1">
+<kw type="setup" name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am inside Test Suite Setup</arg>
+</arguments>
+<msg timestamp="20200424 14:16:19.001" level="INFO">I am inside Test Suite Setup</msg>
+<status status="PASS" endtime="20200424 14:16:19.001" starttime="20200424 14:16:19.000"></status>
+</kw>
+<test id="s1-t1" name="MyFirstTest">
+<kw type="setup" name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am inside Test Setup</arg>
+</arguments>
+<msg timestamp="20200424 14:16:19.003" level="INFO">I am inside Test Setup</msg>
+<status status="PASS" endtime="20200424 14:16:19.003" starttime="20200424 14:16:19.003"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Hello World!</arg>
+</arguments>
+<msg timestamp="20200424 14:16:19.009" level="INFO">Hello World!</msg>
+<status status="PASS" endtime="20200424 14:16:19.010" starttime="20200424 14:16:19.008"></status>
+</kw>
+<kw type="teardown" name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am inside Test Teardown</arg>
+</arguments>
+<msg timestamp="20200424 14:16:19.012" level="INFO">I am inside Test Teardown</msg>
+<status status="PASS" endtime="20200424 14:16:19.012" starttime="20200424 14:16:19.011"></status>
+</kw>
+<tags>
+<tag>smoke</tag>
+</tags>
+<status status="PASS" endtime="20200424 14:16:19.012" critical="yes" starttime="20200424 14:16:19.001"></status>
+</test>
+<test id="s1-t2" name="MySecondTest">
+<kw type="setup" name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am inside Test Setup</arg>
+</arguments>
+<msg timestamp="20200424 14:16:19.025" level="INFO">I am inside Test Setup</msg>
+<status status="PASS" endtime="20200424 14:16:19.025" starttime="20200424 14:16:19.025"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am in second test case</arg>
+</arguments>
+<msg timestamp="20200424 14:16:19.026" level="INFO">I am in second test case</msg>
+<status status="PASS" endtime="20200424 14:16:19.036" starttime="20200424 14:16:19.026"></status>
+</kw>
+<kw name="Set Tags" library="BuiltIn">
+<doc>Adds given ``tags`` for the current test or all tests in a suite.</doc>
+<arguments>
+<arg>regression1</arg>
+</arguments>
+<msg timestamp="20200424 14:16:19.038" level="INFO">Set tag 'regression1'.</msg>
+<status status="PASS" endtime="20200424 14:16:19.039" starttime="20200424 14:16:19.038"></status>
+</kw>
+<kw name="Remove Tags" library="BuiltIn">
+<doc>Removes given ``tags`` from the current test or all tests in a suite.</doc>
+<arguments>
+<arg>regression1</arg>
+</arguments>
+<msg timestamp="20200424 14:16:19.040" level="INFO">Removed tag 'regression1'.</msg>
+<status status="PASS" endtime="20200424 14:16:19.041" starttime="20200424 14:16:19.039"></status>
+</kw>
+<kw type="teardown" name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am inside Test Teardown</arg>
+</arguments>
+<msg timestamp="20200424 14:16:19.042" level="INFO">I am inside Test Teardown</msg>
+<status status="PASS" endtime="20200424 14:16:19.042" starttime="20200424 14:16:19.041"></status>
+</kw>
+<tags>
+<tag>sanity</tag>
+</tags>
+<status status="PASS" endtime="20200424 14:16:19.042" critical="yes" starttime="20200424 14:16:19.023"></status>
+</test>
+<test id="s1-t3" name="MyThirdTest">
+<kw type="setup" name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am inside Test Setup</arg>
+</arguments>
+<msg timestamp="20200424 14:16:19.063" level="INFO">I am inside Test Setup</msg>
+<status status="PASS" endtime="20200424 14:16:19.063" starttime="20200424 14:16:19.063"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am in third test case</arg>
+</arguments>
+<msg timestamp="20200424 14:16:19.070" level="INFO">I am in third test case</msg>
+<status status="PASS" endtime="20200424 14:16:19.070" starttime="20200424 14:16:19.069"></status>
+</kw>
+<kw type="teardown" name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am inside Test Teardown</arg>
+</arguments>
+<msg timestamp="20200424 14:16:19.071" level="INFO">I am inside Test Teardown</msg>
+<status status="PASS" endtime="20200424 14:16:19.072" starttime="20200424 14:16:19.071"></status>
+</kw>
+<tags>
+<tag>sanity</tag>
+</tags>
+<status status="PASS" endtime="20200424 14:16:19.072" critical="yes" starttime="20200424 14:16:19.058"></status>
+</test>
+<kw type="teardown" name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am inside Test Suite Teardown</arg>
+</arguments>
+<msg timestamp="20200424 14:16:19.088" level="INFO">I am inside Test Suite Teardown</msg>
+<status status="PASS" endtime="20200424 14:16:19.088" starttime="20200424 14:16:19.087"></status>
+</kw>
+<status status="PASS" endtime="20200424 14:16:19.088" starttime="20200424 14:16:18.443"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="3">Critical Tests</stat>
+<stat fail="0" pass="3">All Tests</stat>
+</total>
+<tag>
+<stat fail="0" pass="2">sanity</stat>
+<stat fail="0" pass="1">smoke</stat>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Testsuite1" pass="3">Testsuite1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
