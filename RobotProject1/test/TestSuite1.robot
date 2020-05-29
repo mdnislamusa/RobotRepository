@@ -34,29 +34,29 @@ FirstSeleniumTest
     Close Browser
     Log    Test Completed    
     
-# SampleLoginTest
-    # [Documentation]    This is a sample login test
-    # Open Browser    https://opensource-demo.orangehrmlive.com    chrome
-    # Set Browser Implicit Wait    3
-    # Input Text    id=txtUsername	Admin
-    # Input Text    id=txtPassword    admin123   
-    # Sleep    1    
-    # Click Button    id=btnLogin    
-    # Click Element    id=welcome    
-    # Click Element    link=Logout 
-    # Close Browser   
-    # Log    Test completed    
+SampleLoginTest
+    [Documentation]    This is a sample login test
+    Open Browser    https://opensource-demo.orangehrmlive.com    chrome
+    Set Browser Implicit Wait    3
+    Input Text    id=txtUsername	Admin
+    Input Text    id=txtPassword    admin123   
+    Sleep    1    
+    Click Button    id=btnLogin    
+    Click Element    id=welcome    
+    Click Element    link=Logout 
+    Close Browser   
+    Log    Test completed    
 
-# SampleLoginTestWithVariable
-    # [Documentation]    This is a sample login test
-    # Open Browser    ${URL}    chrome
-    # Set Browser Implicit Wait    3
-    # LoginKW    #using USER DEFINE Keyword
-    # Click Element    id=welcome    
-    # Click Element    link=Logout  
-    # Close Browser  
-    # Log    Test completed
-    # Log    ${TEST NAME} was executed by %{username} on %{os}    #use ENVIRONMENTAL variable
+SampleLoginTestWithVariable
+    [Documentation]    This is a sample login test
+    Open Browser    ${URL}    chrome
+    Set Browser Implicit Wait    3
+    LoginKW    #using USER DEFINE Keyword
+    Click Element    id=welcome    
+    Click Element    link=Logout  
+    Close Browser  
+    Log    Test completed
+    Log    ${TEST NAME} was executed by %{username} on %{os}    #use ENVIRONMENTAL variable
 
 *** Variables ***
 ${URL}    https://opensource-demo.orangehrmlive.com    #use SCALAR variable
